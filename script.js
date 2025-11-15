@@ -18,7 +18,7 @@ inputSearch.focus();
 const fetchWeather = async () => {
   try {
     // If input is empty, default to "New York"
-    let citySearch = inputSearch.value || "New York";
+    let citySearch = inputSearch.value || "San Francisco";
 
     // API request URL
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${citySearch}&units=metric&lang=en&appid=${apiKey}`;
