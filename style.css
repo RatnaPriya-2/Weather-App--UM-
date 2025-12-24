@@ -218,17 +218,6 @@ html {
 
 /* Tablets portrait */
 @media (max-width: 768px) {
-  .input-container {
-    flex-direction: column;
-  }
-
-  .input-block {
-    width: 100%;
-  }
-
-  .attribute-container {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* Large phones */
